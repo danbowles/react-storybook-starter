@@ -5,7 +5,8 @@ import ReactDOM from 'react-dom';
 // Import components
 import App from './components/App';
 
-// Set up routes for pages that are wrapped in the App component
+// TODO - add redux back in at some point
+
 ReactDOM.render(
     <App />
   document.getElementById('app')
