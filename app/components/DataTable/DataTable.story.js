@@ -16,8 +16,6 @@ storiesOf('DataTable', module)
     const data = defaultData;
     const selections = defaultSelections;
     return (
-      <Provider store={store}>
-        <DataTable data={data} selections={selections} />
-      </Provider>
+      <DataTable data={data} selections={selections} />
     );
   });
