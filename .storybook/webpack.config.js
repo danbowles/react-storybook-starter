@@ -32,7 +32,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: 'style!css?modules!postcss',
+        loader: 'style!css?modules&localIdentName=[name]__[local]___[hash:base64:5]!postcss',
       },
       {
         test: /\.csv$/,
