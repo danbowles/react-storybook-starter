@@ -1,0 +1,49 @@
+{
+  "name": "react-storybook-starter",
+  "version": "1.0.0",
+  "description": "Simple React Storybook App",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src",
+    "storybook": "start-storybook -p 9001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danbowles/react-storybook-starter.git"
+  },
+  "author": "Dan Bowles",
+  "homepage": "https://github.com/danbowles/react-storybook-starter.git",
+  "devDependencies": {
+    "@kadira/storybook": "^1.6.0",
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "css-loader": "^0.23.1",
+    "dsv-loader": "^1.0.3",
+    "eslint": "^2.6.0",
+    "eslint-config-airbnb": "6.0.2",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-react": "^4.2.3",
+    "lost": "^6.7.2",
+    "object.assign": "^4.0.3",
+    "postcss": "^5.0.19",
+    "postcss-custom-properties": "^5.0.0",
+    "postcss-import": "^8.0.2",
+    "postcss-loader": "^0.8.2",
+    "postcss-nested": "^1.0.0",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.13.1",
+    "stylelint": "^5.2.1",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "mori": "^0.3.2",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "slug": "^0.9.1"
+  }
+}
