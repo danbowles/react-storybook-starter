@@ -39,7 +39,6 @@ export default class DataTable extends Component {
       ),
       this.props.data
     ));
-    console.log(styles);
     return (
       <table className={styles.DataTable}>
         <thead className={styles.thead}>{this.drawHeader(headers)}</thead>
